@@ -28,7 +28,8 @@ body {
 }
 a {
   /* color: currentColor; */
-  /* text-decoration: none; */
+  display: inline-block;
+  text-decoration: none;
 }
 ul {
   list-style-type: none;
@@ -47,6 +48,9 @@ section {
 #prerequisites dt {
   font-weight: 600;
   margin-block-start: 16px;
+}
+#prerequisites a {
+  text-decoration: underline;
 }
 .last-p {
   margin-block-start: 32px;
