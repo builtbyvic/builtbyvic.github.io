@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
   <title>web-resources</title>
   <link rel="shortcut icon" href="rocket.svg" type="image/x-icon">
 </head>
@@ -45,7 +46,7 @@
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </section>
     <!-- <p>PS: This guide focuses on web development e.g. building websites and such.</p> -->
-    <section id="prerequisites">
+    <section id="prerequisites" data-aos="fade-up">
       <h2>prerequisites</h2>
       <dl>
         <dt>a decent laptop</dt>
@@ -61,7 +62,7 @@
       </dl>
     </section>
     <!-- <p>At a basic level,wesites are made of 3 things: HTML,CSS and JavaScript</p> -->
-    <section id="html">
+    <section id="html" data-aos="fade-up">
       <h2>HTML</h2>
       <p>
         HyperText Markup Language(HTML) forms the core as you build any website, it is the text,the images,the links you see on any web page <strong>WITHOUT</strong> any styling. It's the skeleton of the website. HTML is a markup language and involves defining headings,paragraphs etc on a page.
@@ -75,7 +76,7 @@
         <li><a href="https://htmlreference.io">HTML Reference</a></li>
       </ul>
     </section>
-    <section id="css">
+    <section id="css" data-aos="fade-up">
       <h2>CSS</h2>
       <p>
         CSS stands for Cascading Style Sheets. On it's own, HTML is boring. Our website needs some color, a great layout,a nice font etc, enter CSS! This is the <strong>STYLING</strong>. It gives our website that GLOW✨. When someone says a website looks amazing they're most certainly referring to the CSS.
@@ -88,7 +89,7 @@
         <li><a href="https://web.dev/learn/css/">Learn CSS</a></li>
       </ul>
     </section>
-    <section id="javascript">
+    <section id="javascript" data-aos="fade-up">
       <h2>JavaScript</h2>
       <p>
         This allows us to do ANYTHING we want to a website. At its core,it allows users to interact with a page e.g. making purchases online. JS also allows developers to build complex animations and special effects on a webpage. It is the Midas Touch.
@@ -102,7 +103,7 @@
         <li><a href="https://wesbos.com/javascript">Wes Bos JavaScript Notes</a></li>
       </ul>
     </section>
-    <section id="books">
+    <section id="books" data-aos="fade-up">
       <h2>Books</h2>
       <p>Here are some books for those who love to read.</p>
       <ul>
@@ -112,7 +113,7 @@
         <li>You Don't Know JS Book Series by Kyle Simpson</li>
       </ul>
     </section>
-    <section id="youtube">
+    <section id="youtube" data-aos="fade-up">
       <h2>YouTube Channels</h2>
       <p>Here are some of the YouTube channels that have come in handy throughout my learning process.</p>
       <ul>
@@ -130,5 +131,9 @@
   <footer>
     <div>&#169;2022 by <a href="https://linktr.ee/OVO96">Vic⚡</a></div>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
