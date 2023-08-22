@@ -1,43 +1,46 @@
-*,*::after,*::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 :root {
-  color: var(--font-color);
+  color: #fff;
   font-display: swap;
-  font-family: 'Sora',sans-serif;
-  font-size: clamp(1rem,0.75rem+1.5vw,2rem);
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1rem, 0.75rem+1.5vw, 2rem);
   line-height: 1.6;
   min-block-size: 100vh;
   --bg-default: #ffffff;
   --bg-color: #b1efe3;
-  --font-color:#003049;
+  --font-color: #003049;
   --pink: #ffccbc;
 }
 body {
   align-items: center;
-  background-color: var(--bg-color);
-  background-image: linear-gradient(to right,var(--bg-color),var(--pink));
+  background-color: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* min-inline-size: 300px; */
   min-block-size: 100vh;
   margin-inline: 28px;
 }
 a {
-  /* color: currentColor; */
+  color: #e1affd;
   display: inline-block;
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 ul {
   list-style-type: none;
 }
 section {
-  background-image: linear-gradient(225deg, rgba(177, 239, 227, .45), rgba(177, 239, 227, .45) 30%, rgba(255, 204, 188, .71) 85%);
-  border-radius: 16px;
-  box-shadow: 4px 4px 4px 4px var(--bg-color);
+  background-color: #000;
+  border: 1px groove rgba(255 255 255 / 0.1);
+  border-radius: 0.25rem;
   margin-block-start: 32px;
   max-inline-size: 66ch;
   padding: 16px;
