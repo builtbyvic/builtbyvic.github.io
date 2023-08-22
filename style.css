@@ -45,6 +45,9 @@ section {
   max-inline-size: 66ch;
   padding: 16px;
 }
+footer {
+  margin-block-end: 1rem;
+}
 #prerequisites dl dd {
   margin-inline-start: 24px;
 }
