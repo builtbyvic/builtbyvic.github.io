@@ -39,7 +39,7 @@ ul {
 }
 section {
   background-color: #000;
-  border: 1px groove rgba(255 255 255 / 0.1);
+  border: 2px groove rgba(255 255 255 / 0.1);
   border-radius: 0.25rem;
   margin-block-start: 32px;
   max-inline-size: 66ch;
