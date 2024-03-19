@@ -61,3 +61,6 @@ footer {
 .last-p {
   margin-block-start: 32px;
 }
+header {
+  margin-top: 2rem;
+}
